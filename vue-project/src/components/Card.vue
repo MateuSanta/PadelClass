@@ -11,13 +11,20 @@ export default {
 </script>
 
 <template>
-    <div class="flex  place-content-center relative h-[35rem]  overflow-hidden">
-        <h1 class="text-center m-12 font-light text-3xl text-[#30475D]">
+    <div>
+        <div class="flex flex-col place-self-center h-6 text-center">
+            <h1 class=" h-7 my-12 font-light text-3xl text-[#30475D]">
             NUESTROS CURSOS
-        </h1> 
-        <div  :class="{'translate-x-[50rem]':!left,'xl:translate-x-full':!left}" class="flex absolute w-[20] xl:w-[80rem]  duration-300 overflow-hidden place-content-center  m-32 p-10">
+            </h1> 
+        </div>
 
-            <div class="hidden justify-center shadow-2xl  xl:flex">
+    </div>
+    <div class="flex  relative text-center place-content-center  h-[38rem]  overflow-hidden">
+
+
+        <div  :class="{'translate-x-[50rem]':!left,'xl:translate-x-full':!left}" class="flex absolute w-[20] xl:w-[120rem]  duration-300 overflow-hidden place-content-center  m-32 p-10">
+
+            <div class="hidden justify-center   xl:flex">
                 <div class=" rounded shadow-xl border-2 border-[#30475D] bg-white max-w-sm">
                     <a href="#!">
                         <img class=" " src="/public/images/basics.png" alt="" />
@@ -34,7 +41,7 @@ export default {
             </div>
 
             <div class="flex place-self-center ">
-                <div class="rounded shadow-2xl border-2 border-[#30475D] mx-20  bg-white max-w-sm">
+                <div class="rounded shadow-xl border-2 border-[#30475D] mx-20  bg-white max-w-sm">
                     <a href="#!">
                         <img  src="/public/images/bandeja.png" alt="" />
                     </a>
@@ -50,7 +57,7 @@ export default {
             </div>
 
             <div class=" justify-center hidden xl:flex">
-                <div class="rounded shadow-2xl border-2 border-[#30475D] bg-white max-w-sm">
+                <div class="rounded shadow-xl border-2 border-[#30475D] bg-white max-w-sm">
                     <a href="#!">
                         <img  src="/public/images/tactics.png" alt="" />
                     </a>
@@ -66,10 +73,10 @@ export default {
             </div>
         </div>
 
-        <div :class="{'-translate-x-full':left}" class="flex absolute w-[80rem]  duration-300 overflow-hidden place-content-center m-32 p-10">
+        <div :class="{'-translate-x-full':left}" class="flex absolute w-[240rem]  duration-300 overflow-hidden place-content-center m-32 p-10">
 
             <div class=" justify-center hidden xl:flex">
-                <div class=" rounded shadow-2xl border-2 border-[#30475D] bg-white max-w-sm">
+                <div class=" rounded shadow-xl border-2 border-[#30475D] bg-white max-w-sm">
                     <a href="#!">
                         <img  src="/public/images/basics.png" alt="" />
                     </a>
@@ -85,7 +92,7 @@ export default {
             </div>
 
             <div class="flex justify-center">
-                <div class="rounded shadow-2xl border-2 border-[#30475D] mx-20 bg-white max-w-sm">
+                <div class="rounded shadow-xl border-2 border-[#30475D] mx-20 bg-white max-w-sm">
                     <a href="#!">
                         <img  src="/public/images/bandeja.png" alt="" />
                     </a>
@@ -101,7 +108,7 @@ export default {
             </div>
 
             <div class="  justify-center hidden xl:flex">
-                <div class="rounded shadow-2xl border-2 border-[#30475D] bg-white max-w-sm">
+                <div class="rounded shadow-xl border-2 border-[#30475D] bg-white max-w-sm">
                     <a href="#!">
                         <img  src="/public/images/tactics.png" alt="" />
                     </a>
@@ -125,10 +132,15 @@ export default {
 
 
 
-        <img  @click="right=false; left=true" :class="{'hidden':left}" class="flex  absolute w-10 left-20  my-64 rounded-xl rotate-180 " src="/public/images/next.png" alt="">
-        <img @click="left=false; right=true " :class="{'hidden':!left}" class="flex absolute  right-20 my-64 w-10" src="/public/images/next.png" alt="">
+        <img  @click="right=false; left=true" :class="{'hidden':left}" class="flex absolute  w-10 xl:left-1/4  my-64 rounded-xl rotate-180 " src="/public/images/next.png" alt="">
+        <img @click="left=false; right=true " :class="{'hidden':!left}" class="flex  absolute xl:right-1/4 mx-auto my-64 w-10" src="/public/images/next.png" alt="">
 
         
+    </div>
+    <div class="flex flex-col place-items-center h-20 ">
+        <button class=" flex place-content-center h-8 w-36 pt-1   text-center text-white font-black z-0 rounded-2xl  bg-[#db811a] bg-gradient-to-br from-[#F79320]  ">
+             VER MÁS!
+        </button>  
     </div>
 
 </template>

@@ -16,16 +16,16 @@
             <div class="flex items-center">
                 <ul class="flex flex-row mt-0 mr-6 space-x-8 text-sm font-medium">
                     <li>
-                        <a href="#" class="text-gray-900 dark:text-white hover:underline" aria-current="page">Home</a>
+                        <a href="#" class="text-white hover:underline" aria-current="page">Home</a>
                     </li>
                     <li>
-                        <a href="#" class="text-gray-900 dark:text-white hover:underline">Classes</a>
+                        <a href="#" class="text-white hover:underline">Classes</a>
                     </li>
                     <li>
-                        <a href="#" class="text-gray-900 dark:text-white hover:underline">Equipo</a>
+                        <a href="#" class="text-white hover:underline">Equipo</a>
                     </li>
                     <li>
-                        <a href="#" class="text-gray-900 dark:text-white hover:underline">Cosas</a>
+                        <a href="#" class="text-white hover:underline">Cosas</a>
                     </li>
                 </ul>
             </div>
