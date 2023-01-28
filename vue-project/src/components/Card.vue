@@ -14,7 +14,7 @@ export default {
     <div>
         <div class="flex flex-col place-self-center h-6 text-center">
             <h1 class=" h-7 my-12 font-light text-3xl text-[#30475D]">
-            NUESTROS CURSOS
+            NUESTROS CURSOS MÁS POPULARES 
             </h1> 
         </div>
 
@@ -61,8 +61,9 @@ export default {
                     <a href="#!">
                         <img  src="/public/images/tactics.png" alt="" />
                     </a>
-                    <div class="p-6">
+                    <div class="relative ">
                         <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
+                        <hr class="absolute w-[40rem] h-1  my-9  border-0 rounded md:my-6 bg-gray-400">
                         <p class="text-gray-700 text-base mb-4">
                             Some qasdassad asddddddddd
                         </p>
@@ -132,14 +133,14 @@ export default {
 
 
 
-        <img  @click="right=false; left=true" :class="{'hidden':left}" class="flex absolute  w-10 xl:left-1/4  my-64 rounded-xl rotate-180 " src="/public/images/next.png" alt="">
-        <img @click="left=false; right=true " :class="{'hidden':!left}" class="flex  absolute xl:right-1/4 mx-auto my-64 w-10" src="/public/images/next.png" alt="">
+        <img  @click="right=false; left=true" :class="{'hidden':left}" class="flex absolute  w-10  my-64 rounded-xl rotate-180 " src="/public/images/next.png" alt="">
+        <img @click="left=false; right=true " :class="{'hidden':!left}" class="flex  absolute mx-auto my-64 w-10" src="/public/images/next.png" alt="">
 
         
     </div>
     <div class="flex flex-col place-items-center h-20 ">
         <button class=" flex place-content-center h-8 w-36 pt-1   text-center text-white font-black z-0 rounded-2xl  bg-[#db811a] bg-gradient-to-br from-[#F79320]  ">
-             VER MÁS!
+            VER MÁS!
         </button>  
     </div>
 
