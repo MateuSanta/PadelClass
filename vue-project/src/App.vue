@@ -2,7 +2,8 @@
 import { RouterLink, RouterView } from 'vue-router'
 import Header from './components/Header.vue'
 import HomeView from './views/HomeView.vue'
-import HomeVideo from './components/HomeVideo.vue'
+import Footer from './components/Footer.vue'
+
 
 
 </script>
@@ -10,9 +11,11 @@ import HomeVideo from './components/HomeVideo.vue'
 <template>
   <header >
     <Header></Header>
+    <Modal></Modal>
   </header>
   <main >
     <HomeView></HomeView>
+    <Footer></Footer>
   </main>
 </template>
 

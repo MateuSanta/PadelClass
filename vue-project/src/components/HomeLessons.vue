@@ -11,8 +11,12 @@
         </div>
         <div class="flex  invisible place-items-center  mx-14 bg-white lg:p-5  lg:my-10 xl:visible xl:mx-auto rounded-xl">
 
-                <img class=" h-60   transition duration-300  hover:scale-110 hover:opacity-95" src="/public/images/chicopadel.png" alt="">          
-                <h1 class="lg:my-10 text-[#18212A]"> 5 VIDEOS GRATUITOS para mejorar tu padel!</h1>
+                <img class=" h-60   transition duration-300  hover:scale-110 hover:opacity-95" src="/public/images/chicopadel.png" alt="">
+                <div class=" flex flex-col">
+
+      
+                    <h1 class="lg:my-10 font-semibold text-[#18212A]"> 5 VIDEOS GRATUITOS para empezar mejorar tu padel!</h1>
+                </div>   
                 
         </div>
     </div>

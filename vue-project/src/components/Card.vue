@@ -13,7 +13,7 @@ export default {
 <template>
     <div>
         <div class="flex flex-col place-self-center h-6 text-center">
-            <h1 class=" h-7 my-12 font-light text-3xl text-[#30475D]">
+            <h1 class="xl:font-semibold font-[Montserrat] h-7 my-12  text-3xl text-[#30475D]">
             NUESTROS CURSOS MÁS POPULARES 
             </h1> 
         </div>
@@ -25,50 +25,49 @@ export default {
         <div  :class="{'translate-x-[50rem]':!left,'xl:translate-x-full':!left}" class="flex absolute w-[20] xl:w-[120rem]  duration-300 overflow-hidden place-content-center  m-32 p-10">
 
             <div class="hidden justify-center   xl:flex">
-                <div class=" rounded shadow-xl border-2 border-[#30475D] bg-white max-w-sm">
+                <div class=" rounded shadow-xl border-2 border-[#30475D] bg-white w-[300px] h-[400px]">
                     <a href="#!">
                         <img class=" " src="/public/images/basics.png" alt="" />
                     </a>
                     <div class="p-6">
-                        <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
-                        <p class="text-gray-700 text-base mb-4">
-                            Some qasdassad asddddddddd
+                        <h5 class="text-gray-900 text-xl font-medium mb-2">Aprende lo básico</h5>
+                        <p class="text-gray-700 text-base mb-4 h-[5rem]">
+                            Este curso de iniciación te explicará las partes fundamentales del padel.
                         </p>
                         <button type="button"
-                            class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+                            class=" inline-block px-6 py-2.5 bg-slate-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">EMPEZAR</button>
                     </div>
                 </div>
             </div>
 
             <div class="flex place-self-center ">
-                <div class="rounded shadow-xl border-2 border-[#30475D] mx-20  bg-white max-w-sm">
+                <div class="rounded shadow-xl border-2 border-[#30475D] mx-20  bg-white w-[300px] h-[400px]">
                     <a href="#!">
                         <img  src="/public/images/bandeja.png" alt="" />
                     </a>
                     <div class="p-6">
-                        <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
-                        <p class="text-gray-700 text-base mb-4">
-                            Some qasdassad asddddddddd
+                        <h5 class="text-gray-900 text-xl font-medium mb-2">Bandeja</h5>
+                        <p class="text-gray-700 text-base mb-4 h-[5rem]">
+                            Aprende como y cuando usar una bandeja! Aqui te lo enseñamos.
                         </p>
                         <button type="button"
-                            class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+                            class=" inline-block px-6 py-2.5 bg-slate-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">EMPEZAR</button>
                     </div>
                 </div>
             </div>
 
             <div class=" justify-center hidden xl:flex">
-                <div class="rounded shadow-xl border-2 border-[#30475D] bg-white max-w-sm">
+                <div class="rounded shadow-xl border-2 border-[#30475D] bg-white w-[300px] h-[400px]">
                     <a href="#!">
                         <img  src="/public/images/tactics.png" alt="" />
                     </a>
-                    <div class="relative ">
-                        <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
-                        <hr class="absolute w-[40rem] h-1  my-9  border-0 rounded md:my-6 bg-gray-400">
-                        <p class="text-gray-700 text-base mb-4">
-                            Some qasdassad asddddddddd
+                    <div class="p-6 ">
+                        <h5 class="text-gray-900 text-xl font-medium mb-2">Táctica</h5>
+                        <p class="text-gray-700 text-base mb-4 h-[5rem]">
+                            Aqui te enseñamos una de las partes más fundamentales del padel!
                         </p>
                         <button type="button"
-                            class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+                            class=" inline-block flex-end px-6 py-2.5 bg-slate-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">EMPEZAR</button>
                     </div>
                 </div>
             </div>
@@ -76,50 +75,50 @@ export default {
 
         <div :class="{'-translate-x-full':left}" class="flex absolute w-[240rem]  duration-300 overflow-hidden place-content-center m-32 p-10">
 
-            <div class=" justify-center hidden xl:flex">
-                <div class=" rounded shadow-xl border-2 border-[#30475D] bg-white max-w-sm">
+            <div class="hidden justify-center   xl:flex">
+                <div class=" rounded shadow-xl border-2 border-[#30475D] bg-white w-[300px] h-[400px]">
                     <a href="#!">
-                        <img  src="/public/images/basics.png" alt="" />
+                        <img class=" " src="/public/images/basics.png" alt="" />
                     </a>
                     <div class="p-6">
-                        <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
-                        <p class="text-gray-700 text-base mb-4">
-                            ITEM 3
+                        <h5 class="text-gray-900 text-xl font-medium mb-2">Aprende lo básico</h5>
+                        <p class="text-gray-700 text-base mb-4 h-[5rem]">
+                            Este curso de iniciación te explicará las partes fundamentales del padel.
                         </p>
                         <button type="button"
-                            class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+                            class=" inline-block px-6 py-2.5 bg-slate-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">EMPEZAR</button>
                     </div>
                 </div>
             </div>
 
-            <div class="flex justify-center">
-                <div class="rounded shadow-xl border-2 border-[#30475D] mx-20 bg-white max-w-sm">
+            <div class="flex place-self-center ">
+                <div class="rounded shadow-xl border-2 border-[#30475D] mx-20  bg-white w-[300px] h-[400px]">
                     <a href="#!">
                         <img  src="/public/images/bandeja.png" alt="" />
                     </a>
                     <div class="p-6">
-                        <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
-                        <p class="text-gray-700 text-base mb-4">
-                            ITEM 4
+                        <h5 class="text-gray-900 text-xl font-medium mb-2">Bandeja</h5>
+                        <p class="text-gray-700 text-base mb-4 h-[5rem]">
+                            Aprende como y cuando usar una bandeja! Aqui te lo enseñamos.
                         </p>
                         <button type="button"
-                            class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+                            class=" inline-block px-6 py-2.5 bg-slate-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">EMPEZAR</button>
                     </div>
                 </div>
             </div>
 
-            <div class="  justify-center hidden xl:flex">
-                <div class="rounded shadow-xl border-2 border-[#30475D] bg-white max-w-sm">
+            <div class=" justify-center hidden xl:flex">
+                <div class="rounded shadow-xl border-2 border-[#30475D] bg-white w-[300px] h-[400px]">
                     <a href="#!">
                         <img  src="/public/images/tactics.png" alt="" />
                     </a>
-                    <div class="p-6">
-                        <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
-                        <p class="text-gray-700 text-base mb-4">
-                            ITEM 5
+                    <div class="p-6 ">
+                        <h5 class="text-gray-900 text-xl font-medium mb-2">Táctica</h5>
+                        <p class="text-gray-700 text-base mb-4 h-[5rem]">
+                            Aqui te enseñamos una de las partes más fundamentales del padel!
                         </p>
                         <button type="button"
-                            class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+                            class=" inline-block flex-end px-6 py-2.5 bg-slate-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">EMPEZAR</button>
                     </div>
                 </div>
             </div>
@@ -133,8 +132,8 @@ export default {
 
 
 
-        <img  @click="right=false; left=true" :class="{'hidden':left}" class="flex absolute  w-10  my-64 rounded-xl rotate-180 " src="/public/images/next.png" alt="">
-        <img @click="left=false; right=true " :class="{'hidden':!left}" class="flex  absolute mx-auto my-64 w-10" src="/public/images/next.png" alt="">
+        <img  @click="right=false; left=true" :class="{'hidden':left}" class="flex absolute left-40  w-10  my-64 rounded-xl rotate-180 " src="/public/images/next.png" alt="">
+        <img @click="left=false; right=true " :class="{'hidden':!left}" class="flex  absolute right-40 mx-auto my-64 w-10" src="/public/images/next.png" alt="">
 
         
     </div>
