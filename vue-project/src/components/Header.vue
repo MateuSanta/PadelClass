@@ -22,13 +22,13 @@
                         <a href="#" class="text-white font-[Montserrat] hover:underline" aria-current="page">Home</a>
                     </li>
                     <li>
-                        <a href="#" class="text-white font-[Montserrat] hover:underline">Classes</a>
+                        <a href="#" class="text-white font-[Montserrat] hover:underline">Cursos</a>
                     </li>
                     <li>
                         <a href="#" class="text-white font-[Montserrat] hover:underline">Equipo</a>
                     </li>
                     <li>
-                        <a href="#" class="text-white font-[Montserrat] hover:underline">Cosas</a>
+                        <a href="#" class="text-white font-[Montserrat] hover:underline">Contacto</a>
                     </li>
                 </ul>
             </div>

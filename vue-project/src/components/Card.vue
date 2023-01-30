@@ -56,7 +56,7 @@ export default {
                 </div>
             </div>
 
-            <div class=" justify-center hidden xl:flex">
+            <div class=" justify-center hidden grayscale xl:flex">
                 <div class="rounded shadow-xl border-2 border-[#30475D] bg-white w-[300px] h-[400px]">
                     <a href="#!">
                         <img  src="/public/images/tactics.png" alt="" />
@@ -67,7 +67,7 @@ export default {
                             Aqui te enseñamos una de las partes más fundamentales del padel!
                         </p>
                         <button type="button"
-                            class=" inline-block flex-end px-6 py-2.5 bg-slate-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">EMPEZAR</button>
+                            class=" inline-block flex-end px-6 py-2.5 bg-slate-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">PREMIUM</button>
                     </div>
                 </div>
             </div>
@@ -107,8 +107,8 @@ export default {
                 </div>
             </div>
 
-            <div class=" justify-center hidden xl:flex">
-                <div class="rounded shadow-xl border-2 border-[#30475D] bg-white w-[300px] h-[400px]">
+            <div class=" justify-center grayscale hidden xl:flex">
+                <div class="rounded  shadow-xl border-2 border-[#30475D] bg-white w-[300px] h-[400px]">
                     <a href="#!">
                         <img  src="/public/images/tactics.png" alt="" />
                     </a>

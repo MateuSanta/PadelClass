@@ -9,8 +9,8 @@
             </div>
             <div class="flex flex-col  row-start-1 col-start-2 row-end-4 col-end-4   border-[#db811a]">
                 <p class="text-white text-center text-2xl mt-12">Cursos de nivel 
-                    <span class=" inline-block text-slate-400 mt-2 p-2"> INICIACIÓN</span> </p>
-                    <button class="mt-[5.5rem]  bottom-0 text-center text-[#db811a]">VER MÁS</button>
+                    <span class=" inline-block text-slate-400 text-xl mt-2 p-2"> INICIACIÓN</span> </p>
+                    <button class="mt-[4rem]  bottom-0 text-center text-[#db811a]">VER MÁS</button>
             </div>
             <div class="row-start-1 col-start-4 row-end-4 col-end-5  border-b-4 border-r-4  border-[#db811a]">
                 
@@ -22,8 +22,8 @@
             </div>
             <div class="flex flex-col row-start-1 col-start-2 row-end-4 col-end-4   border-[#db811a]">
                 <p class="text-white text-center text-2xl mt-12">Cursos de nivel 
-                    <span class="inline-block text-[#b4742a] mt-2 p-2"> INTERMEDIO</span> </p>
-                <button class="mt-[5.5rem]  bottom-0 text-center text-[#db811a]">VER MÁS</button>
+                    <span class="inline-block text-[#b4742a] text-xl mt-2 p-2"> INTERMEDIO</span> </p>
+                <button class="mt-[4rem]  bottom-0 text-center text-[#db811a]">VER MÁS</button>
 
             </div>
             <div class="row-start-1 col-start-4 row-end-4 col-end-5  border-b-4 border-r-4  border-[#db811a]">
@@ -36,9 +36,9 @@
             </div>
             <div class="flex flex-col row-start-1 col-start-2 row-end-4 col-end-4   border-[#db811a]">
                 <p class="text-white text-center text-2xl mt-12">Cursos de nivel 
-                    <span class="inline-block text-[#ca1d51] bg-slate-200 rounded mt-2 p-2">AVANZADO</span>
+                    <span class="inline-block text-[#ca1d51] bg-slate-200 text-xl rounded mt-2 p-2">AVANZADO</span>
                 </p>
-                <button class="mt-[5.5rem]  bottom-0 text-center text-[#db811a]">VER MÁS</button>
+                <button class="mt-[4rem]  bottom-0 text-center text-[#db811a]">VER MÁS</button>
             </div>
             <div class="row-start-1 col-start-4 row-end-4 col-end-5  border-b-4 border-r-4  border-[#db811a]">
 
