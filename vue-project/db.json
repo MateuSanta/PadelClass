@@ -1,0 +1,78 @@
+{
+    "cards": [
+        {
+            "id": 1,
+            "nombre": "Básico",
+            "imagen": "/public/images/card-basics.png",
+            "descripcion": "Aqui te enseñamos las partes más fundamentales del padel! ",
+            "premium": false,
+            "nivel": "Iniciación"
+        },
+        {
+            "id": 2,
+            "nombre": "Mental",
+            "imagen": "/public/images/card-mental.png",
+            "descripcion": "Aprende a controlar las emociones en el padel con estos tips! ",
+            "premium": false,
+            "nivel": "Iniciación"
+        },
+        {
+            "id": 3,
+            "nombre": "Pared",
+            "imagen": "/public/images/card-pared.png",
+            "descripcion": "Controla los golpes de pared con este curso! ",
+            "premium": true,
+            "nivel": "Iniciación"
+        },
+        {
+            "id": 4,
+            "nombre": "Servicio",
+            "imagen": "/public/images/card-servicio.png",
+            "descripcion": "Haz que tu servicio marque la diferencia con este curso! ",
+            "premium": false,
+            "nivel": "Intermedio"
+        },
+        {
+            "id": 5,
+            "nombre": "Táctica",
+            "imagen": "/public/images/card-tactics.png",
+            "descripcion": "Destaca como jugador mejorando la táctica! ",
+            "premium": true,
+            "nivel": "Avanzado"
+        },
+        {
+            "id": 6,
+            "nombre": "Bandeja",
+            "imagen": "/public/images/card-bandeja.png",
+            "descripcion": "Aqui te enseñamos una de las partes más fundamentales del padel! ",
+            "premium": true,
+            "nivel": "Iniciación"
+        }
+    ],
+    "team": [
+        {
+            "id": 0,
+            "nombre": "Paquito",
+            "imagen": "/public/images/avatar1.jpg",
+            "descripcion": "Aprende a controlar las emociones en el padel con estos tips! "
+        },
+        {
+            "id": 1,
+            "nombre": "Rafael",
+            "imagen": "/public/images/avatar2.jpg",
+            "descripcion": "Aprende a controlar las emociones en el padel con estos tips! "
+        },
+        {
+            "id": 2,
+            "nombre": "Teresa",
+            "imagen": "/public/images/avatar3.jpg",
+            "descripcion": "Aprende a controlar las emociones en el padel con estos tips! "
+        },
+        {
+            "id": 3,
+            "nombre": "Bernardo",
+            "imagen": "/public/images/avatar4.jpg",
+            "descripcion": "Aprende a controlar las emociones en el padel con estos tips! "
+        }
+    ]
+}

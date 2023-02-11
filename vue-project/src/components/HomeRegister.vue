@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col  place-items-center  h-[50rem] w-full place-content-center ">
-        <h1 class=" h-7 mb-20 font-[Montserrat] font-light text-3xl text-[#30475D]">REGISTRATE AHORA</h1>
+        <h1 class=" h-7 mb-20 font-[Montserrat] font-light text-3xl text-[#30475D]">REGÍSTRATE AHORA</h1>
         <!-- PASOS PARA REGISTRARSE-->
 
         <ol
@@ -38,7 +38,7 @@
         <p class="mt-4 text-3xl text-[#db811a]"> Compárate con tus amigos!</p>
         <button
             class=" flex place-content-center h-8 w-36 pt-1 mt-10  text-center text-white font-black z-0 rounded-2xl  bg-[#db811a] bg-gradient-to-br from-[#F79320]  ">
-            REGISTRATE!
+            REGÍSTRATE!
         </button>
         <hr class="w-48 h-1  my-10  border-0 rounded md:my-22 bg-[#30475D]">
         <p class="pb-2 text-center">Aseguramos una mejora del

@@ -14,10 +14,10 @@
             </div>
         </div>    
     </nav>
-    <nav class=" flex bg-gray-800 ">
+    <nav class=" flex  bg-gray-800 ">
         <div class="max-w-screen-xl px-4 py-3 mx-auto md:px-6">
             <div class="flex items-center">
-                <ul class="flex flex-row mt-0 mr-6 space-x-8 text-sm font-medium">
+                <ul class="flex flex-row text-center mt-0  space-x-8 text-sm font-medium">
                     <li>
                         <a href="#" class="text-white font-[Montserrat] hover:underline" aria-current="page">Home</a>
                     </li>

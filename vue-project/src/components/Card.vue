@@ -1,4 +1,5 @@
 <script>
+
 export default {
     data() { 
         return {
@@ -27,7 +28,7 @@ export default {
             <div class="hidden justify-center   xl:flex">
                 <div class=" rounded shadow-xl border-2 border-[#30475D] bg-white w-[300px] h-[400px]">
                     <a href="#!">
-                        <img class=" " src="/public/images/basics.png" alt="" />
+                        <img class=" " src="/public/images/card-basics.png" alt="" />
                     </a>
                     <div class="p-6">
                         <h5 class="text-gray-900 text-xl font-medium mb-2">Aprende lo básico</h5>
@@ -78,7 +79,7 @@ export default {
             <div class="hidden justify-center   xl:flex">
                 <div class=" rounded shadow-xl border-2 border-[#30475D] bg-white w-[300px] h-[400px]">
                     <a href="#!">
-                        <img class=" " src="/public/images/basics.png" alt="" />
+                        <img class=" " src="/public/images/card-basics.png" alt="" />
                     </a>
                     <div class="p-6">
                         <h5 class="text-gray-900 text-xl font-medium mb-2">Aprende lo básico</h5>
@@ -132,7 +133,7 @@ export default {
 
 
 
-        <img  @click="right=false; left=true" :class="{'hidden':left}" class="flex absolute left-10  w-10  my-64 rounded-xl rotate-180 " src="/public/images/next.png" alt="">
+        <img  @click="right=false; left=true"  class="flex absolute left-10  w-10  my-64 rounded-xl rotate-180 " src="/public/images/next.png" alt="">
         <img @click="left=false; right=true " :class="{'hidden':!left}" class="flex  absolute right-10 mx-auto my-64 w-10" src="/public/images/next.png" alt="">
 
         

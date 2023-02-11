@@ -3,6 +3,7 @@
     <div transition-style="circulo-transition"
         class=" m-5 my-10  p-5 bg-gray-200 border-2 lg:grid lg:grid-cols-3  rounded-lg bg-opacity-10  lg:p-8 g:my-10 lg:mx-56 shadow-lg  ">
 
+
         <div class="flex m-5 cursor-pointer relative rounded-lg col-start-1 col-end-3 overflow-hidden  ">
 
 
