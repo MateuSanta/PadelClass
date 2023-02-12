@@ -31,12 +31,11 @@
                     alt="">
 
             </div>
-            <div class="relative m-5 rounded overflow-hidden max-h-[170px] cursor-pointer">
+            <div class="relative m-5 rounded overflow-hidden  cursor-pointer">
 
 
 
-                <p
-                    class="text-center xl:font-semibold font-[Montserrat] z-30 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-xl lg:text-lg">
+                <p class="  text-center xl:font-semibold font-[Montserrat] z-30 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-xl lg:text-lg">
                     Las mejores instalaciones a tu disposición</p>
 
                 <img class="transition duration-300 hover:scale-110 " src="/public/images/home5.jpg" alt="">
