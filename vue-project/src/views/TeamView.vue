@@ -22,8 +22,8 @@ await getTeam();
 </script>
 <template>
     <main class="flex flex-col place-items-center  ">
-        <div class="text-center mt-[6rem] mb-[6rem]  bg-[#ffffff00] border-[1px] border-[#c5c5c549] shadow-xl shadow-black/25 p-7 w-[60rem] h-[8rem] rounded  ">
-            <h1 class="text-6xl  text-[#db811a] font-medium">STAFF</h1>
+        <div class="bg-slate-100 text-center mt-[6rem] mb-[6rem]  bg-[#ffffff00] border-[1px] border-[#c5c5c549] shadow-xl shadow-black/25 p-7 w-[60rem] h-[8rem] rounded  ">
+            <h1 class="text-6xl  text-[#db811a] font-medium">Team</h1>
         </div>
 
         <div v-for="person in team" class="flex flex-col place-items-center" >

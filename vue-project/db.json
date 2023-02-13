@@ -22,7 +22,7 @@
       "imagen": "/public/images/card-pared.png",
       "descripcion": "Controla los golpes de pared con este curso! ",
       "premium": true,
-      "nivel": "Iniciación"
+      "nivel": "Intermedio"
     },
     {
       "id": 4,
@@ -46,7 +46,7 @@
       "imagen": "/public/images/card-bandeja.png",
       "descripcion": "Aqui te enseñamos una de las partes más fundamentales del padel! ",
       "premium": true,
-      "nivel": "Iniciación"
+      "nivel": "Avanzado"
     }
   ],
   "team": [
