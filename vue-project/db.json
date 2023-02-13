@@ -53,26 +53,20 @@
     {
       "id": 0,
       "nombre": "Paquito",
-      "imagen": "/public/images/avatar1.jpg",
-      "descripcion": "Aprende a controlar las emociones en el padel con estos tips! "
+      "imagen": "/public/images/avatar1-sm.jpg",
+      "descripcion": "Soy un jugador experimentado y llevo en el circuito competitivo más de 5 años! "
     },
     {
       "id": 1,
       "nombre": "Rafael",
-      "imagen": "/public/images/avatar2.jpg",
-      "descripcion": "Aprende a controlar las emociones en el padel con estos tips! "
+      "imagen": "/public/images/avatar2-sm.jpg",
+      "descripcion": "Llevo 10 años jugando a pádel a nivel semi-profesional! "
     },
     {
       "id": 2,
       "nombre": "Teresa",
-      "imagen": "/public/images/avatar3.jpg",
-      "descripcion": "Aprende a controlar las emociones en el padel con estos tips! "
-    },
-    {
-      "id": 3,
-      "nombre": "Bernardo",
-      "imagen": "/public/images/avatar4.jpg",
-      "descripcion": "Aprende a controlar las emociones en el padel con estos tips! "
+      "imagen": "/public/images/avatar3-sm.jpg",
+      "descripcion": "Jugadora de primera división, actualmente 13 del mundo! "
     }
   ],
   "users": [
@@ -95,22 +89,40 @@
       "id": 2
     },
     {
-      "name": "asdf",
-      "email": "asd@asd.cm",
-      "password": "1234",
+      "name": "",
+      "email": "",
+      "password": "",
       "id": 3
     },
     {
-      "name": "asdf",
-      "email": "asd@asd.cm",
-      "password": "1234",
+      "name": "",
+      "email": "",
+      "password": "",
       "id": 4
     },
     {
-      "name": "asdf",
-      "email": "asd@asd.cm",
+      "name": "",
+      "email": "",
       "password": "",
       "id": 5
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 6
+    },
+    {
+      "name": "",
+      "email": "asd",
+      "password": "sddda",
+      "id": 7
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 8
     }
   ]
 }
