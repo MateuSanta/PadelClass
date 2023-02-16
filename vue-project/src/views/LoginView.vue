@@ -1,5 +1,7 @@
 <script setup>
 import { ref } from "vue";
+import { useCookies } from "vue3-cookies";
+import router from "../router";
 const url = "http://localhost:3000/users";
 const users = ref([]);
 
@@ -20,10 +22,12 @@ function validate() {
 
   users.value.forEach((element) => {
     if (un == element.name && pw == element.password) {
-      alert("Logueado");
-      return;
+      useCookies().cookies.set("username", element.name);
+      router.go(-1);
+      /*       router.push({ path: "/home", params: { login: "1" } }); */
     }
   });
+  alert("Error de login");
 }
 </script>
 
@@ -41,7 +45,7 @@ function validate() {
           >
             Loguéate con tu cuenta
           </h1>
-          <form id="form" class="space-y-4 md:space-y-6" method="post">
+          <form id="form" class="space-y-4 md:space-y-6" method="get">
             <div>
               <label for="username" class="block mb-2 text-sm font-medium text-white"
                 >Nombre</label
@@ -67,27 +71,13 @@ function validate() {
                 required=""
               />
             </div>
-            <div class="flex items-center justify-between">
-              <div class="flex items-start">
-                <div class="flex items-center h-5">
-                  <input
-                    id="remember"
-                    aria-describedby="remember"
-                    type="checkbox"
-                    class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-primary-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-primary-600 dark:ring-offset-gray-800"
-                    required=""
-                  />
-                </div>
-                <div class="ml-3 text-sm">
-                  <label for="remember" class="text-[#ca1d51] 0">Eliminar cuenta</label>
-                </div>
-              </div>
+            <div class="flex items-center">
               <a href="#" class="text-sm font-medium hover:underline text-slate-500"
                 >Contraseña olvidada?</a
               >
             </div>
             <button
-              type="submit"
+              type="button"
               @click="validate()"
               class="w-full focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center bg-slate-400 hover:bg-slate-200 focus:ring-primary-800"
             >

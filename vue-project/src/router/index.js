@@ -5,13 +5,20 @@ import TeamView from '../views/TeamView.vue'
 import LoginView from'../views/LoginView.vue'
 import SignUpView from'../views/SignUpView.vue'
 import ShowView from'../views/ShowView.vue'
+import ProfileView from '../views/ProfileView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  routes: [
+  routes: [ 
+    {
+      path: '/',
+      name: 'index',
+      component: LoginView
+    },  
+
     {
       path: '/home',
-      name: 'home',
+      name: "home",
       component: HomeView
     },
     {
@@ -42,8 +49,11 @@ const router = createRouter({
       path: '/course/card/:id',
       name:'show',
       component: ShowView
+    },{
+      path: '/profile',
+      name: 'profile',
+      component: ProfileView
     }
-  ]
-})
+  ]})
 
 export default router

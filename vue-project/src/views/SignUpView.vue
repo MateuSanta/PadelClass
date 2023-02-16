@@ -14,17 +14,6 @@ async function getUsers() {
 
 await getUsers();
 
-function validate() {
-  var un = form.username.value;
-  var pw = form.password.value;
-
-  users.value.forEach((element) => {
-    if (un == element.name && pw == element.password) {
-      alert("Logueado");
-      return;
-    }
-  });
-}
 function registrar() {
   var un = form.username.value;
   var mail = form.email.value;

@@ -1,3 +1,6 @@
+<script setup>
+
+</script>
 <script>
   import Home from '../components/Home.vue'
   import Lessons from '../components/HomeLessons.vue'

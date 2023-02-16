@@ -74,13 +74,7 @@
       "id": 0,
       "name": "mateu",
       "email": "mateu@123.com",
-      "password": 123
-    },
-    {
-      "id": 1,
-      "name": "tomeu",
-      "email": "tomeu@123.com",
-      "password": 123
+      "password": "123"
     },
     {
       "name": "asd",
