@@ -41,7 +41,7 @@ function registrar() {
 </script>
 
 <template>
-  <section class="bg-gray-900">
+  <section class="bg-gray-900  font-[Montserrat]">
     <div
       class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0"
     >
@@ -52,7 +52,7 @@ function registrar() {
           <h1
             class="text-xl font-bold leading-tight tracking-tight md:text-2xl text-white"
           >
-            CREA TU CUENTA
+            Crea tu cuenta
           </h1>
           <form id="form" class="space-y-4 md:space-y-6" action="post">
             <div>
@@ -78,7 +78,7 @@ function registrar() {
                 id="email"
                 min="5"
                 class="border sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
-                placeholder="name@company.com"
+                placeholder="Tu email"
                 required
               />
             </div>

@@ -27,12 +27,12 @@ function validate() {
       /*       router.push({ path: "/home", params: { login: "1" } }); */
     }
   });
-  alert("Error de login");
+
 }
 </script>
 
 <template>
-  <section class="bg-gray-900">
+  <section class="bg-gray-900  font-[Montserrat]">
     <div
       class="flex flex-col items-center justify-center px-6 py-5 mx-auto md:h-screen lg:py-0"
     >
@@ -54,7 +54,7 @@ function validate() {
                 name="username"
                 id="username"
                 class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                placeholder="Your username"
+                placeholder="Nombre de usuario"
                 required=""
               />
             </div>

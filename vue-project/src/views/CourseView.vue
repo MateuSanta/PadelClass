@@ -55,7 +55,7 @@ function filtroAvanzado() {
 }
 </script>
 <template>
-  <main class="flex flex-col place-items-center">
+  <main class="flex flex-col place-items-center  font-[Montserrat]">
     <div class="flex flex-col font-extralight w-full py-0">
       <div
         class="animate__animated animate__slideInUp bg-slate-100 w-[30rem] flex place-self-center justify-center text-center mt-[6rem] mb-[6rem] border-[1px] border-[#c5c5c549] shadow-xl shadow-black/25 p-7 xl:w-[60rem] h-[8rem] rounded-xl"
@@ -203,7 +203,7 @@ function filtroAvanzado() {
 
             <div class="flex flex-col place-items-center p-6">
               <h5 class="text-gray-900 text-xl font-medium mb-2">{{ card.nombre }}</h5>
-              <p class="text-gray-700 text-base mb-4 h-[7rem]">
+              <p class="text-gray-500   mb-4 h-[7rem]">
                 {{ card.descripcion }}
               </p>
 

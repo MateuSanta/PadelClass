@@ -15,7 +15,7 @@ async function getTeam() {
 await getTeam();
 </script>
 <template>
-  <main class="flex flex-col place-items-center">
+  <main class="flex flex-col place-items-center font-[Montserrat]">
     <div
       class="animate__animated animate__slideInUp bg-slate-100 text-center mt-[6rem] mb-[6rem] border-[1px] border-[#c5c5c549] shadow-xl shadow-black/25 p-7 w-[60rem] h-[8rem] rounded"
     >

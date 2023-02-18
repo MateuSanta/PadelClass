@@ -98,12 +98,12 @@ export default {
           class="rounded shadow-xl border-2 border-[#30475D] bg-white w-[300px] h-[400px]"
         >
           <a href="#!">
-            <img class=" " src="/public/images/card-basics.png" alt="" />
+            <img class=" " src="/public/images/card-servicio.png" alt="" />
           </a>
           <div class="p-6">
-            <h5 class="text-gray-900 text-xl font-medium mb-2">Aprende lo básico</h5>
+            <h5 class="text-gray-900 text-xl font-medium mb-2">Servicio</h5>
             <p class="text-gray-700 text-base mb-4 h-[5rem]">
-              Este curso de iniciación te explicará las partes fundamentales del padel.
+              Este curso aprende como hacer un buen servicio.
             </p>
             <button
               type="button"
@@ -120,12 +120,12 @@ export default {
           class="rounded shadow-xl border-2 border-[#30475D] mx-20 bg-white w-[300px] h-[400px]"
         >
           <a href="#!">
-            <img src="/public/images/card-bandeja.png" alt="" />
+            <img src="/public/images/card-mental.png" alt="" />
           </a>
           <div class="p-6">
-            <h5 class="text-gray-900 text-xl font-medium mb-2">Bandeja</h5>
+            <h5 class="text-gray-900 text-xl font-medium mb-2">Mental</h5>
             <p class="text-gray-700 text-base mb-4 h-[5rem]">
-              Aprende como y cuando usar una bandeja! Aqui te lo enseñamos.
+              Aprende a concentrarte y mantenerte enfocado en el partido.
             </p>
             <button
               type="button"
@@ -142,10 +142,10 @@ export default {
           class="rounded shadow-xl border-2 border-[#30475D] bg-white w-[300px] h-[400px]"
         >
           <a href="#!">
-            <img src="/public/images/card-tactics.png" alt="" />
+            <img src="/public/images/card-pared.png" alt="" />
           </a>
           <div class="p-6">
-            <h5 class="text-gray-900 text-xl font-medium mb-2">Táctica</h5>
+            <h5 class="text-gray-900 text-xl font-medium mb-2">Pared</h5>
             <p class="text-gray-700 text-base mb-4 h-[5rem]">
               Aqui te enseñamos una de las partes más fundamentales del padel!
             </p>

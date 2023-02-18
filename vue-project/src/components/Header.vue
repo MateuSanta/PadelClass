@@ -21,7 +21,7 @@ console.log(username);
 <template>
   <nav :key="componentKey" class="w-full bg-white border-gray-200">
     <div
-      class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl px-4 md:px-6 py-2.5"
+      class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl  font-[Montserrat] px-4 md:px-6 py-2.5"
     >
       <router-link
         class="self-center text-xl font-[Montserrat] font-semibold whitespace-nowrap"

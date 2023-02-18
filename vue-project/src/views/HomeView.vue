@@ -20,7 +20,7 @@
 </script>
 
 <template>
-  <body bg-slate-100>
+  <body class=" font-[Montserrat]" >
     <Home></Home>
     <Lessons></Lessons>
     <Card></Card>
