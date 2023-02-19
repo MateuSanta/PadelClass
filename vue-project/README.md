@@ -58,3 +58,7 @@ Formulario sin validación, hace un insert en la db.json.
 - GESTION USUARIO/PERFIL
 
 Cambio de contraseña y eliminación de cuenta aprovechando el uso de cookies accede al nombre de usuario de estas complementando a ambos formularios, con esto el CRUD sobre usuario esta al completo.
+
+### Observaciones
+
+Si no se han utilizado v-bin o v-model ha sido por el uso de clases dinámicas que me aportaban lo mismo.
